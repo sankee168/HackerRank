@@ -7,7 +7,6 @@ public class CompareVersionNumbers {
     public static void main(String[] args) {
         System.out.println(compareVersion("10.3", "10.3.0"));
     }
-
     public static int compareVersion(String a, String b) {
         String[] firstSplit = a.split("\\.");
         String[] secondSplit = b.split("\\.");
