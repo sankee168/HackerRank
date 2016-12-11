@@ -4,7 +4,7 @@ package interviewbit.LinkedLists;
  * Created by sank on 12/10/16.
  */
 public class PalindromeList {
-    class ListNode {
+    static class ListNode {
         public int val;
         public ListNode next;
 
